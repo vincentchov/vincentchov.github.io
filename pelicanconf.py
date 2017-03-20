@@ -7,7 +7,7 @@ SITENAME = 'Vincent Chov'
 SITETITLE = 'Vincent Chov'
 SITESUBTITLE = 'Graduating CSE major at UConn Storrs'
 SITEDESCRIPTION = 'Vincent Chov\'s personal website'
-SITEURL = 'http://vincentchov.github.io'
+SITEURL = 'http://localhost:8000'
 SITELOGO = SITEURL + '/images/vincent_chov.jpg'
 
 PATH = 'content'
@@ -27,10 +27,8 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+LINKS = (('About Me', 'http://getpelican.com/'),
+         ('Resume', 'http://python.org/'),)
 
 # Social widget
 SOCIAL = (('You can add links in your config file', '#'),
@@ -40,12 +38,6 @@ DEFAULT_PAGINATION = 10
 
 BROWSER_COLOR = '#333'
 ROBOTS = 'index, follow'
-
-CC_LICENSE = {
-    'name': 'Creative Commons Attribution-ShareAlike',
-    'version': '4.0',
-    'slug': 'by-sa'
-}
 
 COPYRIGHT_YEAR = 2017
 
