@@ -90,3 +90,10 @@ def gh_pages():
     """Publish to GitHub Pages"""
     rebuild()
     local("ghp-import -b {github_pages_branch} {deploy_path} -p".format(**env))
+
+def publishghp(msg):
+    preview() #builds publishconf.py
+    local("git add -A") #will commit allll files, be careful
+    local("git commit -m '%s'"%msg)
+    local("ghp-import -m '%s' -b master output"%msg)
+    local("git push --all")
