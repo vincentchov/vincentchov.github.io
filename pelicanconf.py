@@ -4,6 +4,9 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Vincent Chov'
 SITENAME = 'Vincent Chov'
+SITETITLE = 'Vincent Chov'
+SITESUBTITLE = 'Graduating CSE major at UConn Storrs'
+SITEDESCRIPTION = 'Vincent Chov\'s personal website'
 SITEURL = ''
 
 PATH = 'content'
@@ -33,6 +36,17 @@ SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
 
 DEFAULT_PAGINATION = 10
+
+BROWSER_COLOR = '#333'
+ROBOTS = 'index, follow'
+
+CC_LICENSE = {
+    'name': 'Creative Commons Attribution-ShareAlike',
+    'version': '4.0',
+    'slug': 'by-sa'
+}
+
+COPYRIGHT_YEAR = 2017
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
