@@ -7,7 +7,7 @@ SITENAME = 'Vincent Chov'
 SITETITLE = 'Vincent Chov'
 SITESUBTITLE = 'Graduating CSE major at UConn Storrs'
 SITEDESCRIPTION = 'Vincent Chov\'s personal website'
-SITEURL = 'vincentchov.github.io'
+SITEURL = ''
 SITELOGO = SITEURL + '/images/vincent_chov.jpg'
 
 PATH = 'content'
