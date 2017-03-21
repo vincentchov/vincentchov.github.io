@@ -9,7 +9,7 @@ SITESUBTITLE = 'Graduating CSE major at UConn Storrs'
 SITEDESCRIPTION = 'Vincent Chov\'s personal website'
 SITEURL = '//localhost:8000'
 STATIC_PATHS = ['images', 'docs']
-# SITELOGO = '/images/vincent_chov.jpg'
+SITELOGO = '/images/vincent_chov.jpg'
 
 PATH = 'content'
 
@@ -42,4 +42,4 @@ ROBOTS = 'index, follow'
 COPYRIGHT_YEAR = 2017
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+RELATIVE_URLS = True
