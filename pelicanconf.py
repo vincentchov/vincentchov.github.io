@@ -31,8 +31,8 @@ AUTHOR_FEED_RSS = None
 # LINKS = (('Resume', '{filename}/docs/VincentChovResume.pdf'),)
 
 # Social widget
-SOCIAL = (('github', 'github.com/vincentchov'),
-          ('linkedin', 'linkedin.com/in/vincentchov'),)
+SOCIAL = (('github', '//github.com/vincentchov'),
+          ('linkedin', '//linkedin.com/in/vincentchov'),)
 
 DEFAULT_PAGINATION = 10
 
