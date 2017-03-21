@@ -10,7 +10,7 @@ SITESUBTITLE = 'Graduating CSE major at UConn Storrs'
 SITEDESCRIPTION = 'Vincent Chov\'s personal website'
 SITEURL = '//localhost:8000'
 STATIC_PATHS = ['images', 'docs']
-SITELOGO = '//images/vincent_chov.jpg'
+SITELOGO = '/images/vincent_chov.jpg'
 
 
 TIMEZONE = 'America/New_York'
