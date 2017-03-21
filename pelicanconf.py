@@ -7,7 +7,7 @@ SITENAME = 'Vincent Chov'
 SITETITLE = 'Vincent Chov'
 SITESUBTITLE = 'Graduating CSE major at UConn Storrs'
 SITEDESCRIPTION = 'Vincent Chov\'s personal website'
-SITEURL = '//vincentchov.github.io'
+SITEURL = '//localhost:8000'
 STATIC_PATHS = ['images', 'docs']
 # SITELOGO = '/images/vincent_chov.jpg'
 
@@ -31,8 +31,8 @@ AUTHOR_FEED_RSS = None
 # LINKS = (('Resume', '{filename}/docs/VincentChovResume.pdf'),)
 
 # Social widget
-SOCIAL = (('github', '//github.com/vincentchov'),
-          ('linkedin', '//linkedin.com/in/vincentchov'),)
+SOCIAL = (('github', 'https://github.com/vincentchov'),
+          ('linkedin', 'https://linkedin.com/in/vincentchov'),)
 
 DEFAULT_PAGINATION = 10
 
