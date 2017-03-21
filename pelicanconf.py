@@ -8,7 +8,7 @@ SITETITLE = 'Vincent Chov'
 SITESUBTITLE = 'Graduating CSE major at UConn Storrs'
 SITEDESCRIPTION = 'Vincent Chov\'s personal website'
 SITEURL = 'http://localhost:8000'
-SITELOGO = '/images/vincent_chov.jpg'
+SITELOGO = SITEURL + '/images/vincent_chov.jpg'
 
 PATH = 'content'
 
@@ -26,13 +26,13 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-# Blogroll
-LINKS = (('About Me', 'http://getpelican.com/'),
-         ('Resume', 'http://python.org/'),)
+# # Blogroll
+# LINKS = (('About Me', 'http://getpelican.com/'),
+#          ('Resume', 'http://python.org/'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('github', 'github.com/vincentchov'),
+          ('linkedin', 'linkedin.com/in/vincentchov'),)
 
 DEFAULT_PAGINATION = 10
 
