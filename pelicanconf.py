@@ -18,7 +18,7 @@ TIMEZONE = 'America/New_York'
 DEFAULT_LANG = 'en'
 
 # Theme
-THEME = '/home/vincenzo/pelican-themes/Flex'
+THEME = 'themes/Flex'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
