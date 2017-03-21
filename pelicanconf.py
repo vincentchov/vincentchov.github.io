@@ -7,7 +7,7 @@ SITENAME = 'Vincent Chov'
 SITETITLE = 'Vincent Chov'
 SITESUBTITLE = 'Graduating CSE major at UConn Storrs'
 SITEDESCRIPTION = 'Vincent Chov\'s personal website'
-SITEURL = '//localhost:8000'
+SITEURL = '//vincentchov.github.io'
 STATIC_PATHS = ['images', 'docs']
 # SITELOGO = '/images/vincent_chov.jpg'
 
