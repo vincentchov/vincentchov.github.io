@@ -2,15 +2,15 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-PATH = 'content'
 AUTHOR = 'Vincent Chov'
 SITENAME = 'Vincent Chov'
 SITETITLE = 'Vincent Chov'
 SITESUBTITLE = 'Graduating CSE major at UConn Storrs'
 SITEDESCRIPTION = 'Vincent Chov\'s personal website'
-SITEURL = '//localhost:8000'
+SITEURL = 'localhost:8000'
 STATIC_PATHS = ['images', 'docs']
 SITELOGO = '/images/vincent_chov.jpg'
+PATH = 'content'
 
 
 TIMEZONE = 'America/New_York'
