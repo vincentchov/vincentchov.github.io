@@ -8,9 +8,11 @@ SITETITLE = 'Vincent Chov'
 SITESUBTITLE = 'Graduating CSE major at UConn Storrs'
 SITEDESCRIPTION = 'Vincent Chov\'s personal website'
 SITEURL = 'https://vincentchov.github.io'
-STATIC_PATHS = ['images', 'docs']
 PATH = 'content'
 SITELOGO = '/images/vincent_chov.jpg'
+
+STATIC_PATHS = ['images', 'docs', 'extra/CNAME']
+EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
 
 
 TIMEZONE = 'America/New_York'
