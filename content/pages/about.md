@@ -1,7 +1,6 @@
 Title: About Me
-URL:
+URL: 
 save_as: index.html
-Alias: /about
 
 I'm a graduating Computer Science and Engineering (CSE) major
 at the University of Connecticut.  I'm an avid hackathon attendee

@@ -7,7 +7,7 @@ SITENAME = 'Vincent Chov'
 SITETITLE = 'Vincent Chov'
 SITESUBTITLE = 'Graduating CSE major at UConn Storrs'
 SITEDESCRIPTION = 'Vincent Chov\'s personal website'
-SITEURL = 'https://vincentchov.github.io'
+SITEURL = ''
 PATH = 'content'
 SITELOGO = '/images/vincent_chov.jpg'
 
@@ -45,3 +45,11 @@ COPYRIGHT_YEAR = 2017
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
+
+# Enable pelican-alias
+PLUGINS = ['pelican_alias']
+
+ARTICLE_URL = '{slug}/'
+ARTICLE_SAVE_AS = '{slug}/index.html'
+PAGE_URL = '{slug}/'
+PAGE_SAVE_AS = '{slug}/index.html'
