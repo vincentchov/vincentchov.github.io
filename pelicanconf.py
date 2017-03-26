@@ -11,8 +11,9 @@ SITEURL = ''
 PATH = 'content'
 SITELOGO = '/images/vincent_chov.jpg'
 
-STATIC_PATHS = ['images', 'docs', 'extra/CNAME']
-EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
+STATIC_PATHS = ['images', 'docs', 'extra/CNAME', 'static']
+EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},'extra/custom.css': {'path': 'static/custom.css'},}
+CUSTOM_CSS = 'static/custom.css'
 
 TIMEZONE = 'America/New_York'
 
