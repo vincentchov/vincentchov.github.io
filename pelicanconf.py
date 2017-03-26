@@ -14,7 +14,6 @@ SITELOGO = '/images/vincent_chov.jpg'
 STATIC_PATHS = ['images', 'docs', 'extra/CNAME']
 EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
 
-
 TIMEZONE = 'America/New_York'
 
 DEFAULT_LANG = 'en'
