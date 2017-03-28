@@ -46,9 +46,24 @@ COPYRIGHT_YEAR = 2017
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
 
-# Enable pelican-alias
+# Enable pelican-alias and sitemap
 PLUGIN_PATHS = ['pelican-plugins']
 PLUGINS = ['pelican_alias', 'sitemap']
+
+# Sitemap configuration
+SITEMAP = {
+    'format': 'xml',
+    'priorities': {
+        'articles': 1,
+        'indexes': 0.5,
+        'pages': 0.5,
+    },
+    'changefreqs': {
+        'articles': 'always',
+        'indexes': 'hourly',
+        'pages': 'monthly'
+    }
+}
 
 ARTICLE_URL = '{slug}/'
 ARTICLE_SAVE_AS = '{slug}/index.html'
