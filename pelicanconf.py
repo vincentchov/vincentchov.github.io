@@ -47,7 +47,8 @@ COPYRIGHT_YEAR = 2017
 RELATIVE_URLS = True
 
 # Enable pelican-alias
-PLUGINS = ['pelican_alias']
+PLUGIN_PATHS = ['pelican-plugins']
+PLUGINS = ['pelican_alias', 'sitemap']
 
 ARTICLE_URL = '{slug}/'
 ARTICLE_SAVE_AS = '{slug}/index.html'
