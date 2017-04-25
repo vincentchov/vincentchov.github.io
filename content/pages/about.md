@@ -1,6 +1,6 @@
 Title: About Me
-URL: 
-save_as: index.html
+name: about
+slug: about
 
 <p style="max-width: 500px;">
 I'm a graduating Computer Science and Engineering (CSE) major
